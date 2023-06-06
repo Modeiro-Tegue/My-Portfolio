@@ -4,11 +4,12 @@ import Header from './components/Header/header'
 import nav from './components/nav/nav'
 import About from './components/About/About'
 import Experience from './components/Experience/Experience'
-import Service from './components/Services/service'
+import Service from './components/Services/services'
 import Portfolio from './components/Portfolio/portfolio'
-import Testimonials from './components/Testimonials/testimonial'
 import Contact from './components/Contact/contact'
 import Footer from './components/Footer/footer'
+import Testimonials from './components/testimonials/Testimonials'
+
 const App = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const App = () => {
        <Experience />
        <Service />
        <Portfolio />
-       <Testimonials />
+       <Testimonials/>
        <Contact />
        <Footer />
     </>

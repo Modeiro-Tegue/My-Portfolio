@@ -20,9 +20,9 @@
 }
 
 .about__me-image{
-    border-radius: 1rem;
+    border-radius: 2rem;
     overflow: hidden;
-    transform-origin: rotate(10deg);
+    transform: rotate(10deg);
     transition: var(--transition);
 }
 
@@ -87,7 +87,7 @@
     }
 }
 
-/*===================== media queries for medium devices=======*/
+/*===================== media queries for smaller devices=======*/
 
 @media screen and (max-width: 600px){
 .about__me{
